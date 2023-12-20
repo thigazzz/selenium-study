@@ -1,3 +1,13 @@
+"""
+
+Events Listeners é uma maneira de se comunicar, manipular, etc com eventos no Selenium.
+Um Listener ficar 'escutando' ou 'vigiando' um evento.
+Com o uso do Listener é possivel executar ações antes e depois de eventos, como:
+clique, ações do mouse, etc.
+
+"""
+
+
 from selenium.webdriver import Edge
 from selenium.webdriver.support.events import EventFiringWebDriver, AbstractEventListener
 from selenium.webdriver.common.by import By
